@@ -1,6 +1,48 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  height: 600rem;
 }
+
+
+section .spreads {
+  position: fixed;
+  filter: blur(250px);
+  z-index: -2;
+}
+
+section .spreads:nth-child(1) {
+  background-color: #3B59C5;
+  height: 400px;
+  width: 400px;
+  margin-left: 2rem;
+  margin-top: 50rem;
+}
+
+section .spreads:nth-child(2) {
+  background-color: #10DCC3;
+  height: 400px;
+  width: 400px;
+  margin-left: 60rem;
+  margin-top: 5rem;
+}
+
+section .spreads:nth-child(3) {
+  background-color: #E88B00;
+  height: 400px;
+  width: 400px;
+  margin-left: 2rem;
+  margin-top: 150rem;
+}
+
+section .spreads:nth-child(4) {
+  background-color: #C700E8;
+  height: 400px;
+  width: 400px;
+  margin-left: 60rem;
+  margin-top: 200rem;
+}
+
+
 
 .App-logo {
   height: 40vmin;

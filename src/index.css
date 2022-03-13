@@ -1,13 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+
 body {
   margin: 0;
+  border: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #181818;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+::root{
+  font-size: 1rem;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* border-radius: 10px; */
+  background-color: #1818185d;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(73, 73, 73, 0.329); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(73, 73, 73, 0.973); 
 }

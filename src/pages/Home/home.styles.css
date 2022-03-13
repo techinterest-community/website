@@ -1,0 +1,42 @@
+.home {
+  padding: 2rem;
+}
+/* Main Section */
+.greet-content {
+  margin-top: 30vh;
+  line-height: 5px;
+  text-align: center;
+  height: 60vh;
+}
+
+.tic {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+span {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-fill-color: #ffffff00;
+}
+
+.greet-content p {
+    color: #bebebe;
+}
+
+/* About Section */
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.about-section hr {
+  width: 70%;
+  margin-bottom: 10rem;
+}

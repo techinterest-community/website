@@ -1,0 +1,22 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.logo{
+    height: 2.5rem;
+    margin-top: .2rem;
+}
+
+.navs ul {
+    display: flex;
+    list-style: none;
+}
+
+.navs li {
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
