@@ -7,13 +7,9 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <section className='spreads-section'>
-        <div className='spreads'></div>
-        <div className='spreads'></div>
-        <div className='spreads'></div>
-        <div className='spreads'></div>
-      </section>
+
       <Header/>
+      
       <Routes>
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/about" element={<Home/>}/>

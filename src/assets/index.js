@@ -1,2 +1,10 @@
 export { default as LOGO } from './LOGO.svg';
 export { default as FOUNDER } from './founder.png';
+export { default as GITHUB } from './GITHUB.png';
+export { default as TWITTER } from './TWITTER.png';
+export { default as DISCORD } from './DISCORD.png';
+export { default as TELEGRAM } from './TELEGRAM.png';
+export { default as MENTORING } from './MENTORING.png';
+export { default as ASSIGNMENT } from './ASSIGNMENT.png';
+export { default as GUIDANCE } from './GUIDANCE.png';
+export { default as VIDEO } from './VIDEO.png';

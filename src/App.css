@@ -1,13 +1,13 @@
 .App {
   /* text-align: center; */
-  height: 600rem;
+  /* height: 400rem; */
 }
 
-
 section .spreads {
-  position: fixed;
+  position: absolute;
   filter: blur(250px);
   z-index: -2;
+ 
 }
 
 section .spreads:nth-child(1) {
