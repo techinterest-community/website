@@ -1,0 +1,31 @@
+.cnt {
+    width: 25em;
+    padding: 1rem;
+    height: 8rem;
+    border-radius: 10px;
+    display: flex;
+    cursor: pointer;
+}
+.cnt img {
+    height: 45px;
+}
+.cnt-content p {
+    color: #c2c2c2;
+    font-size: 1rem;
+
+}
+.cnt:hover {
+    background-color: #a8a8a818;
+}
+.cnt-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cnt-content {
+    padding: 0 2rem;
+}
+.cnt-desc {
+    color: #969696;
+}
+
