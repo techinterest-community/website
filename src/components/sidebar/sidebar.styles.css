@@ -1,0 +1,29 @@
+.side-bar {
+    position: fixed;
+    z-index: 2;
+    background: rgba(220, 220, 220, 0.308);
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 15rem;
+    padding: 2rem;
+    backdrop-filter: blur(4px);
+    display: none;
+}
+.side-bar, .display-block {
+    display: block;
+}
+
+.side-bar, .display-none {
+    display: none;
+}
+
+.side-bar-list li {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.side-bar-list label {
+    font-family: 'Fira Code', monospace;
+    font-size: 1.2rem;
+}
