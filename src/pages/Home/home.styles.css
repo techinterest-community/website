@@ -7,6 +7,7 @@
   line-height: 5px;
   text-align: center;
   height: 60vh;
+  animation: transitionY 1s;
 }
 
 .tic {
@@ -59,15 +60,18 @@ span {
 .feature-section {
   display: flex;
   justify-content: flex-end;
-  
+  animation: transitionXright 1s;
   /* margin-left: 40%; */
   /* width: 100%; */
 }
 .space {
   width: 60%;
 }
+
 .join-comm {
   margin-top: 40vh;
+  height: 40rem;
+  animation: transitionXleft 1s;
 }
 
 .join-header h1 {

@@ -1,0 +1,22 @@
+section .vid-spreads {
+  position: fixed;
+  filter: blur(250px);
+  z-index: -2;
+}
+
+section .vid-spreads:nth-child(1) {
+  background-color: #e88b00;
+  height: 400px;
+  width: 400px;
+  margin-left: 2rem;
+  margin-top: 50rem;
+}
+
+section .vid-spreads:nth-child(2) {
+  background-color: #c700e8;
+
+  height: 400px;
+  width: 400px;
+  margin-left: 60rem;
+  margin-top: 5rem;
+}

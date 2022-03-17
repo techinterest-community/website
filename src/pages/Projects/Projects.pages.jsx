@@ -7,7 +7,7 @@ const Projects = () => {
         <div className="join-spreads"></div>
         <div className="join-spreads"></div>
       </section>
-      <h1>Projects</h1>
+      <h1>PROJECTS</h1>
     </div>
   );
 };

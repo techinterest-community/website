@@ -9,7 +9,7 @@ const JoinPage = () => {
   const [labeltel, setLeveltel] = useState(false);
 
   return (
-    <div className="page">
+    <div className="join-page">
       <section className='spreads-section'>
         <div className='join-spreads'></div>
         <div className='join-spreads'></div>
@@ -23,7 +23,7 @@ const JoinPage = () => {
         <a
           onMouseEnter={() => setLevelgit(true)}
           onMouseLeave={() => setLevelgit(false)}
-          href="https://github.com/techinterest-community"
+          href={`https://github.com/techinterest-community`}
         >
           <img src={GITHUB} className="git" alt="" />
           {labelgit && (
@@ -36,7 +36,7 @@ const JoinPage = () => {
         <a
           onMouseEnter={() => setLeveltwt(true)}
           onMouseLeave={() => setLeveltwt(false)}
-          href="/"
+          href={`https://twitter.com/techinterestyt`}
         >
           <img src={TWITTER} className="twt" alt="" />
           {labeltwt && (
@@ -49,7 +49,7 @@ const JoinPage = () => {
         <a
           onMouseEnter={() => setLeveltel(true)}
           onMouseLeave={() => setLeveltel(false)}
-          href="/"
+          href="\"
         >
           <img src={TELEGRAM} className="tel" alt="" />
           {labeltel && (
@@ -61,7 +61,7 @@ const JoinPage = () => {
         <a
           onMouseEnter={() => setLevelDis(true)}
           onMouseLeave={() => setLevelDis(false)}
-          href="/"
+          href="https://discord.gg/3xMkhtQ6dW"
         >
           <img src={DISCORD} className="dis" alt="" />
           {labeldis && (
