@@ -1,0 +1,7 @@
+
+.footer {
+    height: 20rem;
+    background-color: #2f303d83;
+    margin-top: 4rem;
+    backdrop-filter: blur(21px);
+}
