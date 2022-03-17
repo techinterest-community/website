@@ -13,10 +13,6 @@
     color: #c2c2c2;
 }
 
-.ft:hover {
-    background-color: #a8a8a818;
-}
-
 .ft-div {
     display: flex;
     flex-wrap: wrap;
