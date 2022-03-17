@@ -8,3 +8,4 @@ export { default as MENTORING } from './MENTORING.png';
 export { default as ASSIGNMENT } from './ASSIGNMENT.png';
 export { default as GUIDANCE } from './GUIDANCE.png';
 export { default as VIDEO } from './VIDEO.png';
+export { default as Loader } from './Loader.svg';

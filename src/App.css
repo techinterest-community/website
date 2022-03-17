@@ -70,11 +70,36 @@ section .spreads:nth-child(4) {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes transitionXleft {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateX(-100px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes transitionXright {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+@keyframes transitionY {
+  from {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
